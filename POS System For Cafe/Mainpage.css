@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+
+@font-face {
+    font-family: "Booter - Zero Zero";
+    src: url("Fonts/Booter - Zero Zero.woff") format("woff"),
+         url("Fonts/Booter - Zero Zero.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #777;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+body{
+    background-image: url('https://thumbs.dreamstime.com/b/cofe-beans-9312053.jpg');
+    /* display: flex; */
+}
+
+.ver-navbar{
+    height: 94vh;
+    align-items: center;
+    width: 5%;
+    background-color: #dfccaf;
+    float: left;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    /* display: flex; */
+    /* justify-content: middle; */
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.logo-bar{
+    margin-bottom: 20px;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+    /* display: flex; */
+    /* justify-content: center; */
+    border-radius: 10px;
+}
+
+/* #dfccaf */
+
+.btn-bar{
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 10px;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+.f-s{
+    font-size: 10px;
+    line-height: 0.7px;
+    word-spacing: 0px;
+    color: black;
+}
+
+.item-col{
+    height: 94vh;
+    width: 90%;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    margin-left: 3%;
+    margin-right: 2%;
+    float: right;
+    background-color: #dfccaf;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.item-box{
+    height: 94vh;
+    width: 67.5%;
+    padding: 0px 12px;
+    float: left;
+    /* margin: 10px; */
+}
+
+.Option-item{
+    width: 80px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    margin: 5px;
+    color: brown;
+}
+
+.Option-item:hover{
+    background-color: brown;
+    color: white;
+}
+
+.hide-price{
+    visibility: none;
+    opacity: 0;
+}
+
+.cart-box{
+    height: 90vh;
+    width: 32.5%;
+    padding: 12px 12px;
+    float: right;
+    background-color: white;
+    /* margin: 10px; */
+    border-radius: 5px;
+}
+
+.logo-img1{
+    width: 75px;
+    height: 55px;
+    border-radius: 7px;
+}
+
+.item-set{
+    display: flex;
+    overflow-x: auto;
+    height: 74%;
+}
+
+.font-size{
+    font-size: 15px;
+}
+
+.section-header {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 2px;
+}
+
+.btn-clear1{
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-clear1:hover{
+    background-color: #CC4C4C;
+}
+
+.btn-sm1{
+    width: 60px;
+    height: 40px;
+}
+
+.btn1 {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
+}
+
+.manage{
+    height: 48vh;
+    overflow-y: auto;
+    overflow-x: none;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 7px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: -5px;
+    margin-right: 5px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #CC4C4C;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.price{
+    flex-grow: 1;
+    color: #333; 
+}
+
+.total-items{
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.total-items-value{
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn-cart1{
+    color: white;
+    background-color: brown;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+    margin-bottom: 3px;
+}
+
+.btn-cart1:hover{
+    background-color: white;
+    border: solid 2px black;
+    color: brown;
+}
+
+.btn-cart1:active{
+    background-color: white;
+    border: solid 2px black;
+    color: brown;
+}
+
+.btn-cart1::after{
+    color: white;
+    background-color: brown;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-lg1::after{
+    background-color: white;
+    border: solid 2px black;
+    color: brown;
+}
+
+.btn-purchase1 {
+    display: block;
+    margin: 10px auto 20px auto;
+    /* font-size: 1.75em; */
+}
+
+.btn-remove{
+    color: white;
+    border: none;
+    border-radius: 0.3em;
+    width: 40px;
+    height: 40px;
+}
